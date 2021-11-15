@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header__text-1 {
+    position: absolute;
+width: 93px;
+height: 21px;
+left: 405px;
+top: 43px;
+
+/* p / 14r */
+
+font-family: Gilroy;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 150%;
+/* identical to box height, or 21px */
+
+
+color: #FFFFFF;
+}
