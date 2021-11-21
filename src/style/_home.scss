@@ -1,0 +1,14 @@
+.home {
+  background: url(../image/bgc.png) center / cover no-repeat;
+  height: 100vh;
+  .dolgo {
+    display: flex;
+    justify-content: center;
+    padding-top: 600px;
+    padding-bottom: 301px;
+    font-family: Noto Serif;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+  }
+}
