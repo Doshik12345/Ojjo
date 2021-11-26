@@ -4,5 +4,5 @@
   box-sizing: border-box;
 }
 
-@import url(./_header.scss);
-@import url(./_home.scss);
+@import './header';
+@import './home'

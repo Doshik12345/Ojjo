@@ -1,29 +1,11 @@
 .home {
-  background: url(../image/bgc.png) center / cover no-repeat;
+  background: url(../image/home/bgc.png); 
   height: 100vh;
-  .dolgo {
-    display: flex;
-    justify-content: center;
-    padding-top: 600px;
-    padding-bottom: 301px;
-    font-family: Noto Serif;
-    font-size: 36px;
-    line-height: 49px;
-    text-align: center;
-    background: linear-gradient(
-        0deg,
-        rgba(51, 51, 51, 0.87),
-        rgba(51, 51, 51, 0.87)
-      ),
-      url(.jpg);
+
+  &-title {
+
   }
-  .katalog {
-    font-family: Gilroy;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 21px;
-    text-align: center;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
+
+  &-btn {
   }
 }

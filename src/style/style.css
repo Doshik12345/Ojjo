@@ -1,9 +1,56 @@
-@import url(./_header.scss);
-@import url(./_home.scss);
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+}
+
+.header .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 43px 405px;
+}
+
+.header .navbar-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 40px;
+          column-gap: 40px;
+}
+
+.header .navbar .logo {
+  padding: 25px 102px;
+}
+
+.header .navbar .nav-item {
+  list-style: none;
+  -webkit-column-gap: 16px;
+          column-gap: 16px;
+}
+
+.header .navbar .nav-link {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 150%;
+  color: #fff;
+}
+
+.home {
+  background: url(../image/home/bgc.png);
+  height: 100vh;
 }
 /*# sourceMappingURL=style.css.map */
